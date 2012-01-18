@@ -52,13 +52,13 @@ var Ajax = new Class({
             request: function() {},
             complete: function() {},
             cancel: function() {
-                log('Ajax (cancelled)', this);
+                console && console.log('Ajax (cancelled)', this);
             },
             failure: function(xhr) {
-                log('Ajax (failed)', this, arguments);
+                console && console.log('Ajax (failed)', this, arguments);
             },
             exception: function(header, value) {
-                log('Ajax (exception)', this, arguments);
+                console && console.log('Ajax (exception)', this, arguments);
             }
         });
     },
