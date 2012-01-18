@@ -22,9 +22,10 @@ ajax.get(function(response) {
 // reinstantiate
 var ajax = (new Ajax('/tackle'));
 
-// post with callback and parameter
+// post with callback and parameters
 ajax.post(
     function(response) {
+        console.log(response);
     }, {
         'who': 'Oliver',
         'why': 'Not a fan of jugglers'
@@ -35,6 +36,6 @@ ajax.post(
 While you can do the same using the default `Request` class, I&#039;ve found
 this to be pretty helpful.
 
-#### Related
+### Related
 [JS-JSON-Validation](google)
 
