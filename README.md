@@ -37,5 +37,5 @@ While you can do the same using the default `Request` class, I&#039;ve found
 this to be pretty helpful.
 
 ### Related
-[JS-JSON-Validation](google)
+[JS-JSON-Validation](https://github.com/onassar/PHP-JSON-Validation)
 
