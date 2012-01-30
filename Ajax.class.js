@@ -1,4 +1,3 @@
-
 /**
  * Ajax
  * 
@@ -6,8 +5,7 @@
  * a simpler GET/POST method signature.
  * 
  * @author  Oliver Nassar <onassar@gmail.com>
- * @public
- * @var     Class
+ * @see     https://github.com/onassar/JS-Ajax
  * @extends Request
  */
 var Ajax = new Class({
